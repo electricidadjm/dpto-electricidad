@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Departamento de Electricidad y Electrónica · IES Julián Marías</title>
+  <meta name="description" content="Departamento de Electricidad y Electrónica del IES Julián Marías (Valladolid). Formación Profesional en instalaciones eléctricas, automatización, robótica industrial y fabricación inteligente.">
+  <meta name="theme-color" content="#0b0d10">
+  <meta property="og:title" content="Departamento de Electricidad y Electrónica · IES Julián Marías">
+  <meta property="og:description" content="Formación Profesional en electricidad, automatización, robótica y fabricación inteligente en Valladolid.">
+  <meta property="og:image" content="img/taller%20robotica.jpeg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0d10'/%3E%3Cpath d='M18 3 7 18h7l-2 11 11-15h-7z' fill='%23ffd400'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <!-- ===== CABECERA ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Inicio">
+        <span class="brand__bolt" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
+        </span>
+        <span class="brand__text">
+          <strong>Electricidad &amp; Electrónica</strong>
+          <small>IES Julián Marías · Valladolid</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#ciclos">Ciclos</a>
+        <a href="#instalaciones">Instalaciones</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#empresas">Empresas</a>
+        <a href="#contacto" class="nav__cta">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== PORTADA ===== -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow"><span class="dot"></span> Taller de automatización y robótica</p>
+        <h1 class="hero__title">
+          Aquí se aprende a <span class="hl">conectar</span> el futuro.
+        </h1>
+        <p class="hero__lead">
+          En el Departamento de Electricidad y Electrónica del IES Julián Marías formamos profesionales
+          capaces de diseñar, montar y programar las instalaciones y las máquinas que mueven la industria:
+          desde la FP Básica hasta el Curso de Especialización en Fabricación Inteligente.
+        </p>
+        <div class="hero__actions">
+          <a href="#ciclos" class="btn btn--primary">
+            Descubre los ciclos
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#instalaciones" class="btn btn--ghost">Visita los talleres</a>
+        </div>
+
+        <ul class="hero__stats">
+          <li><span class="mono">05</span> ofertas formativas</li>
+          <li><span class="mono">04</span> niveles: Básico, Medio, Superior y Especialización</li>
+          <li><span class="mono">✓</span> Formación y prácticas en empresas</li>
+        </ul>
+      </div>
+      <div class="hero__scroll" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ===== POR QUÉ ===== -->
+    <section class="strip">
+      <div class="container strip__inner">
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
+          <div><strong>Aprender haciendo</strong><span>Cada módulo se trabaja sobre equipos reales.</span></div>
+        </div>
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg>
+          <div><strong>Empleabilidad</strong><span>Un sector que necesita técnicos cualificados.</span></div>
+        </div>
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>
+          <div><strong>Proyección europea</strong><span>eTwinning y movilidades Erasmus+.</span></div>
+        </div>
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>
+          <div><strong>Competimos</strong><span>Skills, concursos y retos de empresa.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CICLOS ===== -->
+    <section class="section" id="ciclos">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__tag mono">// 01 — Oferta formativa</p>
+          <h2>Ciclos formativos</h2>
+          <p class="section__intro">Un itinerario completo que te acompaña desde tus primeros empalmes hasta la industria conectada. Empieza donde quieras y sigue subiendo de nivel.</p>
+        </header>
+
+        <div class="filters" role="tablist" aria-label="Filtrar ciclos por nivel">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="basica" role="tab" aria-selected="false">FP Básica</button>
+          <button class="filter" data-filter="medio" role="tab" aria-selected="false">Grado Medio</button>
+          <button class="filter" data-filter="superior" role="tab" aria-selected="false">Grado Superior</button>
+          <button class="filter" data-filter="especializacion" role="tab" aria-selected="false">Especialización</button>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-level="basica">
+            <div class="card__media"><img src="img/panel%20pr%C3%A1cticas%20vivienda.jpeg" alt="Panel de prácticas de instalación eléctrica de vivienda" loading="lazy"></div>
+            <div class="card__body">
+              <span class="badge">FP Básica</span>
+              <h3>Electricidad y Electrónica</h3>
+              <p>Tu primera toma de contacto con el oficio. Montarás instalaciones eléctricas de vivienda, redes de datos y pequeños equipos electrónicos, a la vez que completas tu formación básica.</p>
+              <ul class="card__meta mono">
+                <li>2 cursos</li><li>Acceso a Grado Medio</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="medio">
+            <div class="card__media"><img src="img/centralizacion.png" alt="Centralización de contadores en el taller" loading="lazy"></div>
+            <div class="card__body">
+              <span class="badge">Grado Medio</span>
+              <h3>Instalaciones Eléctricas y Automáticas</h3>
+              <p>El ciclo del electricista profesional: viviendas, edificios e industria, automatismos, telecomunicaciones, energía solar y recarga de vehículo eléctrico. Sales preparado para trabajar.</p>
+              <ul class="card__meta mono">
+                <li>2 cursos</li><li>Técnico/a</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="superior">
+            <div class="card__media"><img src="img/taller%20robotica%20(2).jpeg" alt="Estaciones de fabricación flexible del taller de robótica" loading="lazy"></div>
+            <div class="card__body">
+              <span class="badge">Grado Superior</span>
+              <h3>Automatización y Robótica Industrial</h3>
+              <p>Programa autómatas, robots y redes industriales. Diseña y pon en marcha líneas automatizadas como las que encontrarás en las grandes fábricas de la región.</p>
+              <ul class="card__meta mono">
+                <li>2 cursos</li><li>Técnico/a Superior</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="superior">
+            <div class="card__media"><img src="img/cuadroautomatismos.png" alt="Cuadro eléctrico de automatismos" loading="lazy"></div>
+            <div class="card__body">
+              <span class="badge">Grado Superior</span>
+              <h3>Sistemas Electrotécnicos y Automatizados</h3>
+              <p>Del plano a la obra: calcula, proyecta y dirige instalaciones eléctricas, de telecomunicaciones y automatizadas. El perfil técnico que coordina equipos y proyectos.</p>
+              <ul class="card__meta mono">
+                <li>2 cursos</li><li>Técnico/a Superior</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card card--featured" data-level="especializacion">
+            <div class="card__media"><img src="img/celulas3.jpeg" alt="Célula de fabricación inteligente" loading="lazy"></div>
+            <div class="card__body">
+              <span class="badge badge--hot">Especialización</span>
+              <h3>Curso de Especialización en Fabricación Inteligente</h3>
+              <p>Curso de especialización para dar el salto a la industria 4.0: digitalización, sistemas ciberfísicos, datos de planta y gemelos digitales. El complemento perfecto tras un Grado Superior.</p>
+              <ul class="card__meta mono">
+                <li>1 curso</li><li>Tras un Grado Superior</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSTALACIONES ===== -->
+    <section class="section section--alt" id="instalaciones">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__tag mono">// 02 — Talleres y laboratorios</p>
+          <h2>Instalaciones y equipamiento</h2>
+          <p class="section__intro">Espacios amplios y luminosos, equipados con material profesional de las marcas que usa el sector. Aquí cada práctica se parece a un encargo real.</p>
+        </header>
+
+        <div class="features">
+          <div class="feature">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h3"/></svg>
+            <h3>Instalaciones eléctricas</h3>
+            <p>Paneles de vivienda, cuadros de distribución, centralización de contadores y equipos de verificación.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/></svg>
+            <h3>Automatización y neumática</h3>
+            <p>Células de fabricación flexible, autómatas programables, neumática y comunicaciones industriales.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 20h12M9 20v-5l-3-4 4-4 3 3h5"/><circle cx="18" cy="10" r="2"/></svg>
+            <h3>Robótica y realidad virtual</h3>
+            <p>Robots industriales, simulación con RobotStudio y gafas de realidad virtual para practicar sin riesgos.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            <h3>Energía y telecomunicaciones</h3>
+            <p>Instalaciones fotovoltaicas, recarga de vehículo eléctrico e infraestructuras comunes de telecomunicaciones.</p>
+          </div>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <figure class="gallery__item gallery__item--wide"><img src="img/celulas4.jpeg" alt="Células de fabricación flexible" loading="lazy"><figcaption>Células de fabricación flexible</figcaption></figure>
+          <figure class="gallery__item gallery__item--tall"><img src="img/neumatica.jpeg" alt="Entrenadores de neumática" loading="lazy"><figcaption>Neumática y electroneumática</figcaption></figure>
+          <figure class="gallery__item"><img src="img/celulas5.jpeg" alt="Estación de fabricación automatizada" loading="lazy"><figcaption>Estaciones automatizadas</figcaption></figure>
+          <figure class="gallery__item"><img src="img/robotstudio.png" alt="Simulación de robots con RobotStudio" loading="lazy"><figcaption>Simulación con RobotStudio</figcaption></figure>
+          <figure class="gallery__item gallery__item--tall"><img src="img/taller%20equipos.jpeg" alt="Instalación de infraestructura común de telecomunicaciones" loading="lazy"><figcaption>Infraestructuras de telecomunicaciones</figcaption></figure>
+          <figure class="gallery__item"><img src="img/fotovoltaica.jpeg" alt="Instalación solar fotovoltaica" loading="lazy"><figcaption>Energía solar fotovoltaica</figcaption></figure>
+          <figure class="gallery__item"><img src="img/celulas7.jpeg" alt="Detalle de célula automatizada" loading="lazy"><figcaption>Control y supervisión</figcaption></figure>
+          <figure class="gallery__item gallery__item--tall"><img src="img/panel.png" alt="Entrenador de electrónica de potencia con motor trifásico" loading="lazy"><figcaption>Electrónica de potencia y máquinas</figcaption></figure>
+          <figure class="gallery__item"><img src="img/centralizacion%20punto%20de%20recarga.jpeg" alt="Centralización con punto de recarga de vehículo eléctrico" loading="lazy"><figcaption>Recarga de vehículo eléctrico</figcaption></figure>
+          <figure class="gallery__item"><img src="img/fotovoltaica%20(2).jpeg" alt="Montaje de instalación fotovoltaica" loading="lazy"><figcaption>Autoconsumo solar</figcaption></figure>
+          <figure class="gallery__item"><img src="img/comporbacionesvuadro.png" alt="Alumnado realizando comprobaciones en un cuadro eléctrico" loading="lazy"><figcaption>Verificaciones y medidas</figcaption></figure>
+          <figure class="gallery__item"><img src="img/robot.png" alt="Robot industrial del taller" loading="lazy"><figcaption>Robótica industrial</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROYECTOS ===== -->
+    <section class="section" id="proyectos">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__tag mono">// 03 — Más allá del aula</p>
+          <h2>Proyectos</h2>
+          <p class="section__intro">Iniciativas que abren el taller a Europa, a la innovación y a las empresas. Porque la FP también se aprende colaborando.</p>
+        </header>
+
+        <div class="projects">
+          <article class="project project--etwinning">
+            <div class="project__logo" aria-hidden="true">
+              <!-- Icono propio inspirado en eTwinning: dos centros unidos bajo las estrellas europeas -->
+              <svg viewBox="0 0 64 64">
+                <g class="stars">
+                  <circle cx="32" cy="8" r="1.8"/><circle cx="44" cy="11.2" r="1.8"/><circle cx="52.8" cy="20" r="1.8"/>
+                  <circle cx="20" cy="11.2" r="1.8"/><circle cx="11.2" cy="20" r="1.8"/>
+                </g>
+                <circle class="ring ring--a" cx="25" cy="38" r="13"/>
+                <circle class="ring ring--b" cx="39" cy="38" r="13"/>
+              </svg>
+              <span class="mono">eTwinning</span>
+            </div>
+            <div>
+              <h3>eTwinning</h3>
+              <p>Nuestro alumnado trabaja codo con codo con estudiantes de otros países europeos en proyectos técnicos compartidos: comparan normativas, diseñan soluciones juntos y lo presentan en inglés. Una forma diferente de aprender electricidad… y de hacer amigos en toda Europa.</p>
+              <span class="project__tag mono">Europa · Colaboración · Idiomas</span>
+            </div>
+          </article>
+
+          <article class="project project--erasmus">
+            <div class="project__logo" aria-hidden="true">
+              <!-- Icono propio inspirado en Erasmus+ -->
+              <svg viewBox="0 0 64 64">
+                <circle class="ring" cx="32" cy="32" r="22"/>
+                <g class="stars">
+                  <circle cx="32" cy="10" r="1.8"/><circle cx="43" cy="13" r="1.8"/><circle cx="51" cy="21" r="1.8"/><circle cx="54" cy="32" r="1.8"/>
+                  <circle cx="51" cy="43" r="1.8"/><circle cx="43" cy="51" r="1.8"/><circle cx="32" cy="54" r="1.8"/><circle cx="21" cy="51" r="1.8"/>
+                  <circle cx="13" cy="43" r="1.8"/><circle cx="10" cy="32" r="1.8"/><circle cx="13" cy="21" r="1.8"/><circle cx="21" cy="13" r="1.8"/>
+                </g>
+                <text x="32" y="38" text-anchor="middle">E+</text>
+              </svg>
+              <span class="mono">Erasmus+</span>
+            </div>
+            <div>
+              <h3>Movilidades Erasmus+</h3>
+              <p>Realizar parte de la formación en empresa en otro país es una experiencia que marca un currículum. Acompañamos al alumnado en todo el proceso: preparación, viaje y estancia.</p>
+              <span class="project__tag mono">Movilidad · Formación en empresa</span>
+            </div>
+          </article>
+
+          <article class="project project--image">
+            <img src="img/realidad%20virtual.jpeg" alt="Alumno practicando con gafas de realidad virtual" loading="lazy">
+            <div>
+              <h3>Realidad virtual en el aula</h3>
+              <p>Con gafas de realidad virtual el alumnado recorre instalaciones, identifica riesgos y practica maniobras antes de tocar un solo cable. Seguridad y aprendizaje inmersivo.</p>
+              <span class="project__tag mono">Innovación · Seguridad</span>
+            </div>
+          </article>
+
+          <article class="project project--image">
+            <img src="img/celulas5.jpeg" alt="Estación automatizada de fabricación inteligente" loading="lazy">
+            <div>
+              <h3>Industria 4.0</h3>
+              <p>Conectamos autómatas, robots y estaciones de fabricación en una misma línea para capturar datos, supervisar el proceso y tomar decisiones como en una fábrica inteligente.</p>
+              <span class="project__tag mono">Automatización · Datos</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__logo" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <circle class="ring" cx="32" cy="30" r="12"/>
+                <path class="ray" d="M32 8v6M32 46v6M10 30h6M48 30h6M16.4 14.4l4.2 4.2M43.4 41.4l4.2 4.2M47.6 14.4l-4.2 4.2M20.6 41.4l-4.2 4.2"/>
+                <path class="bolt" d="M34 22l-7 10h5l-2 8 7-10h-5z"/>
+              </svg>
+              <span class="mono">Energía</span>
+            </div>
+            <div>
+              <h3>Energía sostenible</h3>
+              <p>Montamos instalaciones de autoconsumo fotovoltaico y puntos de recarga de vehículo eléctrico. La transición energética también se construye en nuestros talleres.</p>
+              <span class="project__tag mono">Renovables · Movilidad eléctrica</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__logo" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <path class="ring" d="M20 12h24v12a12 12 0 0 1-24 0z"/>
+                <path class="ring" d="M44 16h7v4a7 7 0 0 1-7 7M20 16h-7v4a7 7 0 0 0 7 7M32 36v10M24 52h16"/>
+                <circle class="bolt" cx="32" cy="22" r="4"/>
+              </svg>
+              <span class="mono">Skills</span>
+            </div>
+            <div>
+              <h3>Competiciones de FP</h3>
+              <p>Preparamos a nuestro alumnado para campeonatos como Skills Castilla y León o el Concurso Jóvenes Instaladores. Velocidad, precisión y nervios de acero.</p>
+              <span class="project__tag mono">Skills · Excelencia</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NOTICIAS ===== -->
+    <section class="section section--alt" id="noticias">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__tag mono">// 04 — Actualidad</p>
+          <h2>Noticias y logros</h2>
+          <p class="section__intro">El trabajo diario en el taller tiene recompensa. Estos son algunos de los momentos de los que más orgullosos nos sentimos.</p>
+        </header>
+
+        <div class="news">
+          <article class="news__item news__item--lead">
+            <div class="news__media"><img src="img/skillsplata.jpg" alt="Podio del campeonato Skills Castilla y León" loading="lazy"></div>
+            <div class="news__body">
+              <span class="news__date mono">Skills Castilla y León</span>
+              <h3>¡Plata en Skills Castilla y León!</h3>
+              <p>Nuestro alumno se subió al podio del campeonato autonómico de Formación Profesional en la modalidad de instalaciones eléctricas. Meses de entrenamiento en el taller que acabaron con una medalla al cuello.</p>
+            </div>
+          </article>
+
+          <article class="news__item">
+            <div class="news__media"><img src="img/iberdrola-concurso.jpeg" alt="Alumnado premiado en la sede de Iberdrola" loading="lazy"></div>
+            <div class="news__body">
+              <span class="news__date mono">Premios Talento FP</span>
+              <h3>En los Premios Talento FP de Iberdrola</h3>
+              <p>Dos de nuestros estudiantes participaron en los Premios Talento FP de Iberdrola, que reconocen a los mejores perfiles de Formación Profesional del sector energético.</p>
+            </div>
+          </article>
+
+          <article class="news__item">
+            <div class="news__media"><img src="img/skills%20cyl%202025.jpeg" alt="Alumno en su módulo de competición de Skills Castilla y León 2025" loading="lazy"></div>
+            <div class="news__body">
+              <span class="news__date mono">Skills CyL 2025</span>
+              <h3>En plena competición</h3>
+              <p>Un box, un cuadro por montar y el reloj en marcha. Así vivió nuestro alumno la competición autonómica.</p>
+            </div>
+          </article>
+
+          <article class="news__item">
+            <div class="news__media"><img src="img/concursojovenesinstalarodes.png" alt="Concurso Jóvenes Instaladores, fase provincial de Valladolid" loading="lazy"></div>
+            <div class="news__body">
+              <span class="news__date mono">Jóvenes Instaladores 2026</span>
+              <h3>¡Campeón provincial de Jóvenes Instaladores!</h3>
+              <p>Nuestro alumno ganó el Concurso Jóvenes Instaladores de la provincia de Valladolid y representará al centro en la fase nacional, que se celebrará en Matelec en noviembre de 2026.</p>
+            </div>
+          </article>
+
+          <article class="news__item">
+            <div class="news__media"><img src="img/skillsplata%20(2).jpg" alt="Entrega de medallas en Skills Castilla y León" loading="lazy"></div>
+            <div class="news__body">
+              <span class="news__date mono">Skills Castilla y León</span>
+              <h3>Talento que se entrena</h3>
+              <p>Detrás de cada medalla hay muchas tardes de taller, profesorado implicado y compañeros que empujan.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EMPRESAS ===== -->
+    <section class="section" id="empresas">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__tag mono">// 05 — Red de colaboración</p>
+          <h2>Empresas colaboradoras</h2>
+          <p class="section__intro">Las empresas acogen a nuestro alumnado durante su formación y muchas acaban incorporándolo a su plantilla. Gracias a ellas, el salto del aula al trabajo es mucho más corto.</p>
+        </header>
+
+        <!-- Edita la lista de empresas en js/main.js (constante EMPRESAS) -->
+        <div class="partners" id="partners"></div>
+
+        <div class="cta">
+          <div>
+            <h3>¿Tu empresa busca técnicos cualificados?</h3>
+            <p>Colabora con nosotros acogiendo alumnado en formación en empresa o FP Dual.</p>
+          </div>
+          <a class="btn btn--primary" href="mailto:47007525.electr@educa.jcyl.es?subject=Colaboraci%C3%B3n%20de%20empresa">Quiero colaborar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section class="section section--alt" id="contacto">
+      <div class="container contact">
+        <div class="contact__info">
+          <p class="section__tag mono">// 06 — Contacto</p>
+          <h2>Hablemos</h2>
+          <p class="section__intro">¿Tienes dudas sobre la oferta, la admisión o quieres colaborar con nosotros? Escríbenos y te respondemos lo antes posible.</p>
+
+          <ul class="contact__list">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <div>
+                <span class="mono">Correo electrónico</span>
+                <a href="mailto:47007525.electr@educa.jcyl.es">47007525.electr@educa.jcyl.es</a>
+                <button class="copy" data-copy="47007525.electr@educa.jcyl.es" type="button">Copiar</button>
+              </div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              <div>
+                <span class="mono">Centro</span>
+                <p>IES Julián Marías · Valladolid</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+          <label>Nombre
+            <input type="text" name="nombre" required autocomplete="name">
+          </label>
+          <label>Asunto
+            <select name="asunto">
+              <option>Información sobre ciclos formativos</option>
+              <option>Admisión y matrícula</option>
+              <option>Colaboración de empresa / FP Dual</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label>Mensaje
+            <textarea name="mensaje" rows="5" required></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Abrir en mi correo</button>
+          <p class="form__note">El mensaje se abrirá en tu programa de correo. No almacenamos ningún dato.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="img/fachadainstituto.png" alt="Fachada del IES Julián Marías" loading="lazy">
+        <div>
+          <strong>Departamento de Electricidad y Electrónica</strong>
+          <p>IES Julián Marías · Valladolid</p>
+        </div>
+      </div>
+      <p class="mono footer__copy">© <span id="year"></span> IES Julián Marías</p>
+      <a href="#top" class="footer__top" aria-label="Volver arriba">↑</a>
+    </div>
+  </footer>
+
+  <!-- Visor de imágenes -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes" hidden>
+    <button class="lightbox__close" aria-label="Cerrar">×</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Anterior">‹</button>
+    <figure><img alt=""><figcaption></figcaption></figure>
+    <button class="lightbox__nav lightbox__next" aria-label="Siguiente">›</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
