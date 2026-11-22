@@ -81,7 +81,7 @@
 
   /* ---------- Animación de aparición ---------- */
   const revealTargets = document.querySelectorAll(
-    ".strip__item, .section__head, .card, .feature, .gallery__item, .project, .news__item, .partner, .cta, .contact__form, .contact__info"
+    ".strip__item, .section__head, .card, .feature, .gallery__item, .project, .news__item, .cert, .partner, .cta, .contact__form, .contact__info"
   );
   if ("IntersectionObserver" in window) {
     const io = new IntersectionObserver((entries) => {
